@@ -1,6 +1,6 @@
-# Project Title
+# Binar Car Rental
 
-This project is a responsive website built with HTML, CSS, and Bootstrap. It features a responsive navigation bar that collapses into a hamburger menu on smaller screens.
+This project is a responsive Car Rental website built with HTML, CSS, and Bootstrap. It features a responsive navigation bar that collapses into a hamburger menu on smaller screens.
 
 ## Features
 
@@ -8,8 +8,7 @@ This project is a responsive website built with HTML, CSS, and Bootstrap. It fea
 
 ## Usage
 
-To use this project, simply clone the repository and open `index.html` in your browser.
+To use this project, follow these steps:
 
-## Contributing
-
-Contributions are welcome. Please open an issue to discuss your idea or submit a Pull Request.
+1. Clone the repository: `git clone <repository-url>`
+2. Open the `index.html` file in your preferred browser.

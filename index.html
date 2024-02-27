@@ -3,15 +3,141 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Rental Mobil Binar</title>
+        <title>Binar Car Rental</title>
+        <link rel="icon" href="img/binar-icon.svg" type="image/x-icon" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
+        <style>
+            @import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+
+            body {
+                font-family: "Helvetica Neue", sans-serif;
+            }
+            .navbar-position {
+                margin-top: 10px;
+            }
+            .menu a {
+                font-size: regular;
+                font-weight: 400;
+                color: #000000;
+            }
+            .custom-link {
+                color: #fff;
+                font-weight: 700;
+                background-color: #5cb85f;
+                border-radius: 4px;
+                padding: 8px 20px 6px 12px;
+                border: 1px solid #5cb85f;
+            }
+            .custom-link:hover {
+                color: #5cb85f;
+                background-color: #fff;
+                border: 1px solid #5cb85f;
+            }
+            .custom-link:focus {
+                color: #fff;
+                background-color: #5cb85f;
+                border: 1px solid #5cb85f;
+            }
+            .custom-btn-hero {
+                background-color: #5cb85f;
+                border: none;
+            }
+            .custom-btn-hero:hover {
+                background-color: #4a9d4b;
+            }
+        </style>
     </head>
     <body>
+        <!-- Navbar and Hero Section-->
+        <div style="background-color: #f1f3ff">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container navbar-position">
+                    <a class="navbar-brand" href="#"
+                        ><img
+                            width="180"
+                            height="100"
+                            class="img-fluid"
+                            src="img/logo.png"
+                            alt="logo"
+                    /></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse justify-content-end"
+                        id="navbarSupportedContent"
+                    >
+                        <ul
+                            class="navbar-nav mb-2 mb-lg-0 column-gap-3 text-center"
+                        >
+                            <li class="nav-item menu">
+                                <a class="nav-link" href="#">Our Services</a>
+                            </li>
+                            <li class="nav-item menu">
+                                <a class="nav-link" href="#">Why Us</a>
+                            </li>
+                            <li class="nav-item menu">
+                                <a class="nav-link" href="#">Testimonial</a>
+                            </li>
+                            <li class="nav-item menu">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-link" href="#"
+                                    >Register</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-md-6 my-auto ps-3 pe-4">
+                        <h1 class="pb-2">
+                            Sewa & Rental Mobil Terbaik di kawasan Tangerang
+                        </h1>
+                        <p class="pb-2">
+                            Selamat datang di Binar Car Rental. Kami menyediakan
+                            mobil kualitas terbaik dengan harga terjangkau.
+                            Selalu siap melayani kebutuhanmu untuk sewa mobil
+                            selama 24 jam.
+                        </p>
+                        <button
+                            type="button"
+                            class="btn btn-success custom-btn-hero"
+                        >
+                            Mulai Sewa Mobil
+                        </button>
+                    </div>
+                    <div class="col-md-6 car-img">
+                        <img
+                            src="img/img_car.png"
+                            alt="car"
+                            class="img-fluid"
+                            width="704"
+                            height="407"
+                            loading="lazy"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

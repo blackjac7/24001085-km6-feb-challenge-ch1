@@ -33,7 +33,7 @@
                 font-weight: 700;
                 background-color: #5cb85f;
                 border-radius: 4px;
-                padding: 8px 20px 6px 12px;
+                padding: 8px 12px 8px 12px;
                 border: 1px solid #5cb85f;
             }
             .custom-link:hover {
@@ -65,10 +65,6 @@
                 background-color: #f1f3ff;
                 border-bottom: 1px solid #e5e5e5;
             }
-            .custom-carousel-control {
-                background-color: #f1f3ff;
-                border: none;
-            }
             .custom-carousel-icon {
                 filter: invert(1) grayscale(100%) brightness(200%);
             }
@@ -96,6 +92,14 @@
             }
             #testimonial {
                 padding-top: 10%;
+            }
+            @media (max-width: 991px) {
+                .custom-link {
+                    width: 20%;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
             }
         </style>
     </head>
@@ -146,7 +150,7 @@
                             <a class="nav-link" href="#faq">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link custom-link" href="#"
+                            <a class="btn nav-link custom-link" href="#"
                                 >Register</a
                             >
                         </li>
@@ -351,7 +355,7 @@
             </div>
 
             <!-- Testimonial -->
-            <div class="row mt-5 mx-auto" style="width: 70%" id="testimonial">
+            <div class="row mt-5 mx-auto" style="width: 75%" id="testimonial">
                 <h2 class="pb-2 text-center">Testimonial</h2>
                 <p class="pb-4 text-center">
                     Berbagai review positif dari para pelanggan kami
@@ -359,7 +363,7 @@
                 <div
                     id="carouselExample"
                     class="carousel slide"
-                    style="background-color: #f1f3ff"
+                    style="background-color: #f1f3ff; border-radius: 10px"
                 >
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -367,15 +371,19 @@
                                 <div class="col-md-4 my-auto">
                                     <img
                                         src="img/img_photo1.png"
-                                        class="d-block w-30 ms-auto pe-4"
+                                        class="d-block w-30 mx-auto mx-md-0 ms-md-auto pe-md-4"
                                         alt="testi1"
                                     />
                                 </div>
                                 <div class="col-md-8">
-                                    <img src="img/Rate5.png" alt="" />
+                                    <img
+                                        class="py-4 py-md-2 d-block mx-auto mx-md-0"
+                                        src="img/Rate5.png"
+                                        alt=""
+                                    />
                                     <p
                                         style="font-weight: 400; width: 75%"
-                                        class="pe-0"
+                                        class="mx-auto mx-md-0"
                                     >
                                         “Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed do eiusmod lorem
@@ -384,7 +392,12 @@
                                         ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed do eiusmod”
                                     </p>
-                                    <p><strong>John Dee 32, Bromo</strong></p>
+                                    <p
+                                        style="font-weight: 400; width: 75%"
+                                        class="mx-auto mx-md-0"
+                                    >
+                                        <strong>John Dee 32, Bromo</strong>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -393,15 +406,19 @@
                                 <div class="col-md-4 my-auto">
                                     <img
                                         src="img/img_photo1.png"
-                                        class="d-block w-30 ms-auto pe-4"
+                                        class="d-block w-30 mx-auto mx-md-0 ms-md-auto pe-md-4"
                                         alt="testi1"
                                     />
                                 </div>
                                 <div class="col-md-8">
-                                    <img src="img/Rate5.png" alt="" />
+                                    <img
+                                        class="py-4 py-md-2 d-block mx-auto mx-md-0"
+                                        src="img/Rate5.png"
+                                        alt=""
+                                    />
                                     <p
                                         style="font-weight: 400; width: 75%"
-                                        class="pe-0"
+                                        class="mx-auto mx-md-0"
                                     >
                                         “Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed do eiusmod lorem
@@ -410,7 +427,12 @@
                                         ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed do eiusmod”
                                     </p>
-                                    <p><strong>John Dee 32, Bromo</strong></p>
+                                    <p
+                                        style="font-weight: 400; width: 75%"
+                                        class="mx-auto mx-md-0"
+                                    >
+                                        <strong>John Dee 32, Bromo</strong>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -419,15 +441,19 @@
                                 <div class="col-md-4 my-auto">
                                     <img
                                         src="img/img_photo1.png"
-                                        class="d-block w-30 ms-auto pe-4"
+                                        class="d-block w-30 mx-auto mx-md-0 ms-md-auto pe-md-4"
                                         alt="testi1"
                                     />
                                 </div>
                                 <div class="col-md-8">
-                                    <img src="img/Rate5.png" alt="" />
+                                    <img
+                                        class="py-4 py-md-2 d-block mx-auto mx-md-0"
+                                        src="img/Rate5.png"
+                                        alt=""
+                                    />
                                     <p
                                         style="font-weight: 400; width: 75%"
-                                        class="pe-0"
+                                        class="mx-auto mx-md-0"
                                     >
                                         “Lorem ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed do eiusmod lorem
@@ -436,7 +462,12 @@
                                         ipsum dolor sit amet, consectetur
                                         adipiscing elit, sed do eiusmod”
                                     </p>
-                                    <p><strong>John Dee 32, Bromo</strong></p>
+                                    <p
+                                        style="font-weight: 400; width: 75%"
+                                        class="mx-auto mx-md-0"
+                                    >
+                                        <strong>John Dee 32, Bromo</strong>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -510,7 +541,7 @@
                         <div class="accordion-item mb-4">
                             <h2 class="accordion-header">
                                 <button
-                                    class="accordion-button"
+                                    class="accordion-button collapsed"
                                     type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne"
